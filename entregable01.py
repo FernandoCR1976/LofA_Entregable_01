@@ -16,26 +16,26 @@ print("                 [==]                     ")
 print("-----------------------------------------")
 print(" ")
 
-name=float(input("INGRESE EL NUMERO DEL JUGADOR: \n"))
+nom_jugador=float(input("INGRESE EL NUMERO DEL JUGADOR: \n"))
 
 
-if name>=0 and name <1:
+if nom_jugador>=0 and nom_jugador <0.99:
     print("El jugador pertenece a la liga HIERRO")
-elif name>1 and name <2:
+elif nom_jugador>=1.00 and nom_jugador <=1.99:
     print("El jugador pertenece a la liga BRONCE")
-elif name>2 and name <3:
+elif nom_jugador>=2.00 and nom_jugador <=2.99:
     print("El jugador pertenece a la liga PLATA")
-elif name>3 and name <4:
+elif nom_jugador>=3.00 and nom_jugador <=3.99:
     print("El jugador pertenece a la liga ORO")
-elif name>4 and name <5:
+elif nom_jugador>=4.00 and nom_jugador <=4.99:
     print("El jugador pertenece a la liga PLATINO")
-elif name>5 and name <6:
+elif nom_jugador>=5.99 and nom_jugador <=5.99:
     print("El jugador pertenece a la liga DIAMANTE")
-elif name>6 and name <7:
+elif nom_jugador>=6.00 and nom_jugador <=6.99:
     print("El jugador pertenece a la liga MAESTRO")
-elif name>7 and name <8:
+elif nom_jugador>=7.00 and nom_jugador <=7.99:
     print("El jugador pertenece a la liga GRAN MAESTRO")
-elif name>8 and name <9:
-    print("El jugador pertenece a la liga RETADOR \n Ejecute de nuevo el código")
+elif nom_jugador>=8.00 and nom_jugador <=8.99:
+    print("El jugador pertenece a la liga RETADOR ")
 else:
-    print("*******DIGITO UN NUMERO INVALIDO*******")
+    print("*******DIGITO UN NUMERO INVALIDO******* \n Ejecute de nuevo el código")
